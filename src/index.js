@@ -16,7 +16,6 @@ const formats = {
 }
 
 const twitterFormat = (instance) => {
-  unitStr
   let diff = Math.abs(instance.diff(new Date()))
   let unit = null
   let num = null
