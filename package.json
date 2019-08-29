@@ -1,0 +1,45 @@
+{
+  "name": "dayjs-twitter",
+  "version": "0.1.0",
+  "description": "A Twitter-like date formatter for day.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest",
+    "build": "node_modules/.bin/webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freearhey/dayjs-twitter.git"
+  },
+  "keywords": [
+    "dayjs",
+    "twitter",
+    "plugin",
+    "formatter",
+    "date"
+  ],
+  "author": "Arhey",
+  "license": "MIT",
+  "jest": {
+    "roots": [
+      "test"
+    ],
+    "testRegex": "test/(.*?/)?.*test.js$"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.1",
+    "dayjs": "^1.8.15",
+    "jest": "^24.8.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "duration-js": "^4.0.0"
+  },
+  "peerDependecies": {
+    "dayjs": "^1.8.15"
+  }
+}
