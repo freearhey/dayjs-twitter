@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git://github.com/freearhey/dayjs-twitter.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "dayjs",
     "twitter",
