@@ -41,12 +41,14 @@ dayjs().subtract(1, 'year').twitter() // => 'Aug 28, 2018'
 ## Localization
 
 ```js
-dayjs().locale('es').twitter() // => 'Ahora'
-dayjs().locale('es').subtract(10, 'second').twitter() // => '10s'
-dayjs().locale('es').subtract(1, 'minute').twitter() // => '1min'
-dayjs().locale('es').subtract(23, 'hour').twitter() // => '23h'
-dayjs().locale('es').subtract(1, 'day').twitter() // => '28 aug.'
-dayjs().locale('es').subtract(1, 'year').twitter() // => '28 aug. 2018'
+dayjs.locale('es')
+
+dayjs().twitter() // => 'Ahora'
+dayjs().subtract(10, 'second').twitter() // => '10s'
+dayjs().subtract(1, 'minute').twitter() // => '1min'
+dayjs().subtract(23, 'hour').twitter() // => '23h'
+dayjs().subtract(1, 'day').twitter() // => '28 aug.'
+dayjs().subtract(1, 'year').twitter() // => '28 aug. 2018'
 ```
 
 The list of all currently available translations can be found in the `src/locale`.
