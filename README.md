@@ -51,7 +51,7 @@ dayjs().subtract(1, 'day').twitter() // => '28 aug.'
 dayjs().subtract(1, 'year').twitter() // => '28 aug. 2018'
 ```
 
-The list of all currently available translations can be found in the `src/locale`.
+The list of all currently available translations can be found in the [src/locale](src/locale).
 
 ## Testing
 
