@@ -11,7 +11,13 @@ const year = 31536e6
 const twitterFormat = (instance) => {
   const loc = instance.$locale()
   const locName = loc ? loc.name : 'en'
-  const locale = require(`./locale/${locName}`).default
+  //const locale = require(`./locale/${locName}`).default
+  let locale = null;
+  switch (locName) {
+    case 'es': locale = require('./locale/es').default;break;
+    case 'ru': locale = require('./locale/ru').default;break;
+    default: locale = require('./locale/en').default;
+  }
 
   let diff = Math.abs(instance.diff(new Date()))
   let unit = null
