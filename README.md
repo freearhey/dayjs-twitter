@@ -1,4 +1,4 @@
-# dayjs-twitter
+# dayjs-twitter [![Build Status](https://travis-ci.org/freearhey/dayjs-twitter.svg?branch=master)](https://travis-ci.org/freearhey/dayjs-twitter)
 
 dayjs-twitter is a plugin to [day.js](https://github.com/iamkun/dayjs) that formats dates like Twitter
 
