@@ -1,6 +1,6 @@
 {
   "name": "dayjs-twitter",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A Twitter-like date formatter for day.js",
   "main": "dist/dayjs-twitter.min.js",
   "scripts": {
