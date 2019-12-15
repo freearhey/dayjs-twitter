@@ -1,4 +1,5 @@
 import Duration from 'duration-js'
+import locale from './locale'
 
 const second = 1e3
 const minute = 6e4
@@ -11,7 +12,6 @@ const year = 31536e6
 const twitterFormat = (instance) => {
   const loc = instance.$locale()
   const locName = loc ? loc.name : 'en'
-  const locale = require(`./locale/${locName}`).default
 
   let diff = Math.abs(instance.diff(new Date()))
   let unit = null
@@ -36,10 +36,10 @@ const twitterFormat = (instance) => {
   }
 
   if(unit === 'days' || unit === 'years') {
-    const format = locale[unit]
+    const format = locale[locName][unit]
     return instance.format(format)
   } else {
-    const template = locale[unit]
+    const template = locale[locName][unit]
     return template.replace('%d', num)
   }
 }
