@@ -5,4 +5,4 @@ export default {
   hours: "%dω",
   days: "MMM D",
   years: "MMM D, YYYY"
-};
+}
