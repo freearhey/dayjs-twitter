@@ -1,4 +1,4 @@
-# dayjs-twitter [![Build Status](https://travis-ci.org/freearhey/dayjs-twitter.svg?branch=master)](https://travis-ci.org/freearhey/dayjs-twitter)
+# dayjs-twitter [![Build Status](https://app.travis-ci.com/freearhey/dayjs-twitter.svg?branch=master)](https://app.travis-ci.com/freearhey/dayjs-twitter)
 
 dayjs-twitter is a plugin to [day.js](https://github.com/iamkun/dayjs) that formats dates like Twitter
 
@@ -6,26 +6,26 @@ dayjs-twitter is a plugin to [day.js](https://github.com/iamkun/dayjs) that form
 
 ### NPM
 
-  ```sh
-  npm install dayjs-twitter
-  ```
+```sh
+npm install dayjs-twitter
+```
 
-  ```js
-  import dayjs from 'dayjs'
-  import dayjsTwitter from 'dayjs-twitter'
+```js
+import dayjs from 'dayjs'
+import dayjsTwitter from 'dayjs-twitter'
 
-  dayjs.extend(dayjsTwitter)
-  ```
+dayjs.extend(dayjsTwitter)
+```
 
 ### CDN
 
-  ```html
-  <script src="https://unpkg.com/dayjs"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dayjs-twitter/dist/dayjs-twitter.min.js"></script>
-  <script>
-    dayjs.extend(dayjsTwitter.default)
-  </script>
-  ```
+```html
+<script src="https://unpkg.com/dayjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs-twitter/dist/dayjs-twitter.min.js"></script>
+<script>
+  dayjs.extend(dayjsTwitter.default)
+</script>
+```
 
 ## Usage
 
