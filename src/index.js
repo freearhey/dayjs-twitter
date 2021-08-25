@@ -9,7 +9,7 @@ const week = 6048e5
 const month = 2592e6
 const year = 31536e6
 
-const twitterFormat = (instance) => {
+const twitterFormat = instance => {
   const loc = instance.$locale()
   const locName = loc ? loc.name : 'en'
 
@@ -35,7 +35,7 @@ const twitterFormat = (instance) => {
     num = d[unit]()
   }
 
-  if(unit === 'days' || unit === 'years') {
+  if (unit === 'days' || unit === 'years') {
     const format = locale[locName][unit]
     return instance.format(format)
   } else {
